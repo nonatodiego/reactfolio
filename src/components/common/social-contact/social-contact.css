@@ -3,11 +3,25 @@
   justify-content: center;
   align-items: center;
 }
+
+.social-contact h4 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.social-contact a {
+  cursor: text;
+}
+
 .social-icon-div {
   padding: 6px;
-  cursor: pointer;
-  margin: 6px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
+
 .social-icon {
   height: 40px;
 }

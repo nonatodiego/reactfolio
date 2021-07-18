@@ -7,9 +7,10 @@ function SocialContact() {
     <div className="social-contact">
       {data.map((item) => {
         return (
-          <a href={item.link}>
+          <a>
             <div className="social-icon-div">
               <img src={item.icon} className="social-icon" />
+              <h4>{item.title}</h4>
             </div>
           </a>
         );
